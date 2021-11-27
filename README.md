@@ -1,5 +1,5 @@
 # Losdol
-This is a Operating System called Losdol (Losdol Operating System depends on Linux).
+This is a Operating System called Losdol (Losdol Operating System Depends On Linux).
 
 ## Resources from
 Our resources from:
@@ -26,7 +26,15 @@ Our resources from:
 			CentOS
 		</td>
 		<td>
-			Kernel and Initramfs.
+			The base system.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Kernel
+		</td>
+		<td>
+			Build kernel.
 		</td>
 	</tr>
 	<tr>
@@ -34,7 +42,15 @@ Our resources from:
 			Busybox
 		</td>
 		<td>
-			Build shell.
+			Build initrd.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Make
+		</td>
+		<td>
+			Compile the kernel and the initrd.
 		</td>
 	</tr>
 </table>
