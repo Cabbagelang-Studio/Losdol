@@ -23,7 +23,7 @@ Our resources from:
 	</tr>
 	<tr>
 		<td>
-			CentOS
+			Alpine Linux
 		</td>
 		<td>
 			The base system.
