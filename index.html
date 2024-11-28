@@ -1,12 +1,180 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Losdol Operating System</title>
-    <link rel="icon" href="https://www.cabbagelang.xyz/favicon.ico"/>
-  </head>
-  <body>
-    <h1>Losdol Operating System Depends On Linux</h1>
-    <a href="https://github.com/Cabbagelang-Studio/Losdol/">Github</a>
-    <a href="https://www.cabbagelang.xyz/">Go back to home page</a>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Losdol - Lightweight Linux OS</title>
+    <link href="logo.png" rel="icon"/>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #1e1e1e;
+            border-bottom: 2px solid #333;
+        }
+
+        header img {
+            width: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            color: #aaaaaa;
+            font-size: 1.2em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1e1e1e;
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #333;
+        }
+
+        main {
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            color: #ffffff;
+            border-bottom: 2px solid #4CAF50;
+            display: inline-block;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+            color: #cccccc;
+        }
+
+        ul li, ol li {
+            margin-bottom: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 1em;
+            text-align: center;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-btn {
+            background-color: #4CAF50;
+        }
+
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+
+        .home-btn {
+            background-color: #333;
+        }
+
+        .home-btn:hover {
+            background-color: #444;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-top: 2px solid #333;
+            color: #aaaaaa;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Losdol Logo">
+        <h1>Losdol Operating System</h1>
+        <p>Lightweight, Configurable, and Easy to Use</p>
+    </header>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#installation">Installation</a>
+        <a href="#download">Download</a>
+    </nav>
+    <main>
+        <section id="features">
+            <h2>Why Choose Losdol?</h2>
+            <ul>
+                <li><strong>Easier to configure:</strong> Pre-configured and ready to use.</li>
+                <li><strong>Built-in Software:</strong>
+                    <ul>
+                        <li>Xorg-7.7 (with 3D support)</li>
+                        <li>WiFi & Alsa drivers</li>
+                        <li>Fluxbox Window Manager</li>
+                        <li>Firefox Nightly, XFE File Explorer, and more</li>
+                    </ul>
+                </li>
+                <li><strong>Easy for beginners:</strong> Lightweight yet user-friendly, perfect for new Linux users.</li>
+            </ul>
+            <p>Losdol is a distribution based on <strong><a href="http://www.tinycorelinux.net/" target="_blank" style="color: #4CAF50;">Tiny Core Linux</a></strong>. It retains the lightweight and modular design of Tiny Core Linux, while pre-configuring popular software and tools to provide an out-of-the-box experience for users.</p>
+        </section>
+        <section id="installation">
+            <h2>Installation Guide</h2>
+            <p>Follow the <a href="http://www.tinycorelinux.net/install.html" target="_blank" style="color: #4CAF50;">Tiny Core Linux Installation Guide</a> with the following Losdol-specific settings:</p>
+            <ol>
+                <li><strong>Path to core.gz:</strong> <code>/mnt/sr0/casper/core.gz</code></li>
+                <li><strong>Bootcodes:</strong> <code>cde</code> + any other bootcodes you need</li>
+                <li><strong>CDE directory:</strong> <code>/mnt/sr0/cde</code></li>
+            </ol>
+        </section>
+        <section id="download">
+            <h2>Download Losdol</h2>
+            <p>You can download the ISO file for Losdol from our official GitHub repository.</p>
+            <a href="https://www.github.com/Cabbagelang-Studio/Losdol" class="button download-btn" target="_blank">Visit GitHub</a>
+            <a href="https://www.cabbagelang.xyz/" class="button home-btn">Return to Main Website</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 Losdol OS | Made by <a href="https://www.cabbagelang.xyz/" target="_blank">Cabbagelang Studio</a></p>
+    </footer>
+</body>
 </html>
